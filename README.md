@@ -10,7 +10,25 @@ Jupyter notebook has the whole code. These can be run in kaggle once uploaded, t
 
 
 ## Fine Tuning on FEVEROUS Dataset
-    Host the dataset in some drive and provide link. And then steps to run the model.
+    
+    To run the code for data collection, we need to run each ipynb in scripts/webscraping.
+    
+    To run the code for claim,evidence, lable extraction, run the code - python -m scripts/extract_claim_verdict_evidence/extract_claim_verdict_evidence.py 
+    
+    To run the code for model fine tuning, run the code python -m scripts/train_verdict_predictor.py
+    
+    To run the code for score evaluation, run the code   python -m scripts/evaluate_verdict_predictor.py
+    
+    For feverous data, use the link - https://fever.ai/dataset/feverous.html 
+
+Jupyter notebook has the whole code. These can be run in kaggle once uploaded, they don't need any datasets as the dataset are being downloaded from the huggingface website. 
+    
+    
+    
+    
+    
+    
+    
 
 ## CompareNet++
     Host the dataset in some drive and provide link. And then steps to run the model.
@@ -32,24 +50,4 @@ Jupyter notebook has the whole code. These can be run in kaggle once uploaded, t
 
 
 
- ### Evaluating performance of models trained on FEVER data on REAL claims data
 
- 
- 
- #### Data Extraction :
-  
- All the code is inside /scripts. Scrpits/webscrapping has the notebooks to run and download raw data from each website - FActly, altnews, opindia, boomlive. 
- 
-#### Claim Evidence and Verdict Extraction
-
-scripts/extract_claim_verdict_evidence.py can be run to extract claim, evidence from content. Input is the data with content and output is saved as csv file. 
-
-#### Training and Evaluation
-
-scripts/train_verdict_predictor, scripts/evaluate_verdict_predictor is used from baseline for FEVEROUS data. It is modified to used for our format. 
-
-
-
-#### data 
-
-All the data collected, cleaned data with claim, evidence, verdict is in data folder. 
