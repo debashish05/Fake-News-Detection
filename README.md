@@ -1,6 +1,21 @@
 # Fake-News-Detection
 
-Link to data for CompareNet: https://drive.google.com/drive/folders/1EjhVjxFpSySf_KbKlmpYwJCkcoXayCIm?usp=sharing. 
+The work is divided into 3 sections:
+
+## Fine Tuning on LIAR Dataset : 
+
+To run the code for inference, we need to first install the dependecies by  `pip install requirements.txt`. After that we need to download the models from `https://drive.google.com/drive/folders/1Ev2jcCSymR_jMCTXTHJU0AR46IiGBkYK?usp=sharing`. Then we need to use the command `streamlit run fakeNews.py ` to open the interface. Where we can choose which model to use and get inference corresponding to that. The model will be downloaded at first, so while first inference it will take some time. 
+
+Jupyter notebook has the whole code. These can be run in kaggle once uploaded, they don't need any datasets as the dataset are being downloaded from the huggingface website. 
+
+
+## Fine Tuning on FEVEROUS Dataset
+    Host the dataset in some drive and provide link. And then steps to run the model.
+
+## CompareNet++
+    Host the dataset in some drive and provide link. And then steps to run the model.
+
+
 
 
 
