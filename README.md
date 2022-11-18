@@ -13,11 +13,11 @@ Jupyter notebook has the whole code. These can be run in kaggle once uploaded, t
     
 To run the code for data collection, we need to run each ipynb in scripts/webscraping.
 
-To run the code for claim,evidence, lable extraction, run the code - python -m scripts/extract_claim_verdict_evidence/extract_claim_verdict_evidence.py 
+To run the code for claim,evidence, lable extraction, run the code - `python -m scripts/extract_claim_verdict_evidence/extract_claim_verdict_evidence.py` 
 
-To run the code for model fine tuning, run the code python -m scripts/train_verdict_predictor.py
+To run the code for model fine tuning, run the code `python -m scripts/train_verdict_predictor.py`
 
-To run the code for score evaluation, run the code   python -m scripts/evaluate_verdict_predictor.py
+To run the code for score evaluation, run the code   `python -m scripts/evaluate_verdict_predictor.py`
 
 For feverous data, use the link - https://fever.ai/dataset/feverous.html 
     
