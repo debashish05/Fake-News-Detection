@@ -11,27 +11,19 @@ Jupyter notebook has the whole code. These can be run in kaggle once uploaded, t
 
 ## Fine Tuning on FEVEROUS Dataset
     
-    To run the code for data collection, we need to run each ipynb in scripts/webscraping.
-    
-    To run the code for claim,evidence, lable extraction, run the code - python -m scripts/extract_claim_verdict_evidence/extract_claim_verdict_evidence.py 
-    
-    To run the code for model fine tuning, run the code python -m scripts/train_verdict_predictor.py
-    
-    To run the code for score evaluation, run the code   python -m scripts/evaluate_verdict_predictor.py
-    
-    For feverous data, use the link - https://fever.ai/dataset/feverous.html 
+To run the code for data collection, we need to run each ipynb in scripts/webscraping.
 
-Jupyter notebook has the whole code. These can be run in kaggle once uploaded, they don't need any datasets as the dataset are being downloaded from the huggingface website. 
-    
-    
-    
-    
-    
-    
-    
+To run the code for claim,evidence, lable extraction, run the code - python -m scripts/extract_claim_verdict_evidence/extract_claim_verdict_evidence.py 
 
+To run the code for model fine tuning, run the code python -m scripts/train_verdict_predictor.py
+
+To run the code for score evaluation, run the code   python -m scripts/evaluate_verdict_predictor.py
+
+For feverous data, use the link - https://fever.ai/dataset/feverous.html 
+    
+    
 ## CompareNet++
-    Host the dataset in some drive and provide link. And then steps to run the model.
+Host the dataset in some drive and provide link. And then steps to run the model.
 
 
 
