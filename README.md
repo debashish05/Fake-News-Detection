@@ -27,6 +27,7 @@ Host the dataset in some drive and provide link. And then steps to run the model
 https://github.com/BUPT-GAMMA/CompareNet_FakeNewsDetection/releases/tag/dataset
 https://drive.google.com/file/d/1njY42YQD5Mzsx2MKkI_DdtCk5OUKgaqq/view
 
+```
 ───data
     ├── fakeNews
     │   ├── adjs
@@ -40,7 +41,7 @@ https://drive.google.com/file/d/1njY42YQD5Mzsx2MKkI_DdtCk5OUKgaqq/view
     │   └── entity_feature_transE.pkl
     └── stopwords_en.txt
 
-
+```
 
 
 
