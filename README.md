@@ -29,6 +29,8 @@ https://drive.google.com/file/d/1njY42YQD5Mzsx2MKkI_DdtCk5OUKgaqq/view
 
 Test Data should be as per below hierarchy.
 
+Open Jupyter Notebook and upload Compare_NetPlus.ipynb notebook. Run from top to bottom. update model name Change mode 0 to 1 for eval.
+
 ```
 ───data
     ├── fakeNews
