@@ -32,3 +32,9 @@ scripts/extract_claim_verdict_evidence.py can be run to extract claim, evidence 
 #### Training and Evaluation
 
 scripts/train_verdict_predictor, scripts/evaluate_verdict_predictor is used from baseline for FEVEROUS data. It is modified to used for our format. 
+
+
+
+#### data 
+
+All the data collected, cleaned data with claim, evidence, verdict is in data folder. 
